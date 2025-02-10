@@ -1,0 +1,23 @@
+{
+   "compilerOptions": {
+     "target": "ES6",                        // Target ES6 for better modern JavaScript support
+     "lib": ["ES2016"],
+     "module": "CommonJS",                   // Use CommonJS module system for Node.js
+     "moduleResolution": "node",             // Use Node.js module resolution strategy
+     "outDir": "./build",                    // Output compiled files to 'build' folder
+     "rootDir": "./src",
+     "esModuleInterop": true,                // Enable interoperability between CommonJS and ES modules
+     "skipLibCheck": true,                   // Skip type checking of declaration files for faster compilation
+     "resolveJsonModule": true,              // Allow importing JSON files
+     "sourceMap": false,                      // Generate source maps for debugging
+     "inlineSourceMap": false,
+     "removeComments": true,
+     "noEmitOnError": true,
+     "allowSyntheticDefaultImports": true,
+     "forceConsistentCasingInFileNames": true,
+     "types": ["node", "jest"],                       // Include Node.js types
+     "experimentalDecorators": true,
+     "emitDecoratorMetadata": true,
+   },
+   "include":["src/**/*.ts"]
+ }
